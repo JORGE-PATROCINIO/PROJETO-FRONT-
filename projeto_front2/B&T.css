@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./fig6.jpeg);
+    background-size:cover ;
+    
+} 
+
+div{
+    margin-right: 4% ;
+    float:right
+}
+
+select{
+    background-color: rgb(233, 160, 194);
+    font-size: medium;
+
+
+}
+
+input{
+    border-radius:10%;
+    background-color: rgb(119, 196, 219);
+    width:100px ;
+    font-size: larger;
+    font:bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#caltemp{
+    width:200px ;
+    
+    
+}
+
+#valor{
+    width:200px ;
+}
+
+h1{
+    font-style:italic;
+    text-align: center;
+}
+h3{
+    margin-left:2% ;
+    font-style: oblique;
+    color: rgb(8, 99, 218);
+}

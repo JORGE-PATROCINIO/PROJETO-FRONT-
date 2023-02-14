@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(200, 142, 233);
+    background-image:url(./fig4.png) ;
+    background-size:cover ;
+   
+} 
+
+.produto{
+    display:flex;
+}
+
+img{
+    width:300px ;
+    margin-top: 5%;
+
+    
+}
+
+h3{
+    text-align: center;
+}
+
+#opc{
+    margin-bottom:13%; 
+    align-items: center;
+}
+
+select {
+    color: rgb(17, 216, 27);
+    background-color: black;
+}
+
+
+
+.alinhamento{
+    margin-top:10% ;
+    display: flex;
+    text-align: center;
+}

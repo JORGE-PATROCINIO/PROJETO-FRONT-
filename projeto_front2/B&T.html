@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho & Tosa</title>
+    <link rel="icon" type="image/x-icon" href= "./icone.png">
+    <link rel="stylesheet" href="B&T.css">
+
+</head>
+<body>
+    <h1>ORÇAMENTO!!!</h1><br>
+    <div><br>
+        <h3>CALCULADORA PET</h3><BR>
+       ESCOLHA O PORTE DO PET:  <select id="op1">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+       </select><br><br>
+       ESCOLHA O TIPO DO PÊLO: <select id="op2">
+        <option value="CURTO">CURTO</option>
+        <option value="LONGO">LONGO</option>
+       </select><br><BR>
+       ESCOLHA O SERVIÇO: <select id="op3">
+            <option value="BANHO">BANHO</option>
+            <option value="TOSA">TOSA</option>
+        </select> <br><br>
+            <input type="button" value="Tempo" onclick="temp();">
+            <input type="text" id="caltemp">
+            <br><br>
+            <input type="button" value="valor" onclick="valor();">
+            <input type="text" id="valor">
+           
+    </div>
+    <script src="./B&T.js"></script>
+</body>
+</html>

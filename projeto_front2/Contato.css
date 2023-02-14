@@ -1,0 +1,36 @@
+* {
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./fig5.png);
+    background-size:cover ;
+    background-color: rgb(167, 97, 233);
+    
+} 
+
+img{
+    width:200px;
+    border-radius: 50%;
+}
+
+div{
+    margin-top:50px ;
+    margin-left:50px ;
+}
+
+input{
+    width:40% ;
+    height:60% ;
+
+}
+
+label{
+    font:bold
+}
+textarea{
+    width:500px;
+    height:200px ;
+    resize: none;
+}
